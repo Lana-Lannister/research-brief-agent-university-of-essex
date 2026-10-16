@@ -1,0 +1,140 @@
+{
+ "10.5555/demo.001": {
+  "DOI": "10.5555/demo.001",
+  "title": [
+   "Multi-agent architectures for automating systematic literature reviews"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2025,
+     3
+    ]
+   ]
+  }
+ },
+ "10.5555/demo.002": {
+  "DOI": "10.5555/demo.002",
+  "title": [
+   "Evaluating LLM-based agents for title and abstract screening in systematic reviews"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2025,
+     3
+    ]
+   ]
+  }
+ },
+ "10.5555/demo.003": {
+  "DOI": "10.5555/demo.003",
+  "title": [
+   "Retrieval-augmented generation pipelines for literature review automation"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2025,
+     3
+    ]
+   ]
+  }
+ },
+ "10.5555/demo.005": {
+  "DOI": "10.5555/demo.005",
+  "title": [
+   "Benchmarking automated evidence synthesis with large language models"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2025,
+     3
+    ]
+   ]
+  }
+ },
+ "10.5555/demo.006": {
+  "DOI": "10.5555/demo.006",
+  "title": [
+   "Hallucinated references and citation errors in LLM-generated literature reviews"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2025,
+     3
+    ]
+   ]
+  }
+ },
+ "10.5555/demo.007": {
+  "DOI": "10.5555/demo.007",
+  "title": [
+   "Human oversight in semi-automated systematic reviews"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2025,
+     3
+    ]
+   ]
+  }
+ },
+ "10.5555/demo.008": {
+  "DOI": "10.5555/demo.008",
+  "title": [
+   "Unrelated paper on soil microbiology"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2025,
+     3
+    ]
+   ]
+  }
+ },
+ "10.5555/demo.009": {
+  "DOI": "10.5555/demo.009",
+  "title": [
+   "A protocol-driven agent for systematic review question decomposition"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2025,
+     3
+    ]
+   ]
+  }
+ },
+ "10.5555/demo.011": {
+  "DOI": "10.5555/demo.011",
+  "title": [
+   "Multi-agent reinforcement learning for warehouse robot routing"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  }
+ },
+ "10.5555/demo.012": {
+  "DOI": "10.5555/demo.012",
+  "title": [
+   "Limitations of automated negotiation agents in supply chains"
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  }
+ }
+}

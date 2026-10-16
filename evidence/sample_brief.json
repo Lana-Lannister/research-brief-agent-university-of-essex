@@ -1,0 +1,241 @@
+{
+  "research_question": "How effective are LLM-based agents at automating systematic literature reviews?",
+  "sub_questions": [
+    {
+      "id": 1,
+      "text": "What approaches and architectures are used for llm-based agents automating systematic literature reviews?",
+      "search_query": "llm-based agents automating systematic literature reviews methods",
+      "approved": true,
+      "retried_once": false,
+      "insufficient_coverage": false
+    },
+    {
+      "id": 2,
+      "text": "What evidence exists on the performance of llm-based agents automating systematic literature reviews?",
+      "search_query": "llm-based agents automating systematic literature reviews",
+      "approved": true,
+      "retried_once": true,
+      "insufficient_coverage": false
+    },
+    {
+      "id": 3,
+      "text": "What risks and limitations affect llm-based agents automating systematic literature reviews?",
+      "search_query": "llm-based agents automating systematic literature reviews limitations",
+      "approved": true,
+      "retried_once": false,
+      "insufficient_coverage": false
+    }
+  ],
+  "selected_papers": [
+    {
+      "paper_id": "S2:demo006",
+      "title": "Hallucinated references and citation errors in LLM-generated literature reviews",
+      "authors": [
+        "Synthetic Author 6A",
+        "Synthetic Author 6B"
+      ],
+      "year": 2025,
+      "abstract": "Large language models can fabricate references or corrupt citation details. We analyse limitations and risks of LLM-based agents automating systematic literature reviews, finding that ungrounded generation produced non-existent DOIs and mismatched metadata, while agents retrieving from scholarly indexes and verifying DOIs reduced these errors substantially.",
+      "doi": "10.5555/demo.006",
+      "source": "semantic_scholar",
+      "subquestion_ids": [
+        3
+      ],
+      "doi_verified": true,
+      "metadata_flag": null
+    },
+    {
+      "paper_id": "S2:demo001",
+      "title": "Multi-agent architectures for automating systematic literature reviews",
+      "authors": [
+        "Synthetic Author 1A",
+        "Synthetic Author 1B"
+      ],
+      "year": 2025,
+      "abstract": "We describe a multi-agent architecture in which LLM-based agents plan search strategies, screen titles and abstracts, and draft evidence tables for systematic literature reviews. A deterministic controller coordinates the agents and enforces review protocol rules. Methods for decomposing review questions into search queries are compared across three domains.",
+      "doi": "10.5555/demo.001",
+      "source": "semantic_scholar",
+      "subquestion_ids": [
+        1,
+        2
+      ],
+      "doi_verified": true,
+      "metadata_flag": null
+    },
+    {
+      "paper_id": "S2:demo002",
+      "title": "Evaluating LLM-based agents for title and abstract screening in systematic reviews",
+      "authors": [
+        "Synthetic Author 2A",
+        "Synthetic Author 2B"
+      ],
+      "year": 2025,
+      "abstract": "This evaluation measures how accurately LLM-based agents screen titles and abstracts for systematic literature reviews. Across four review datasets the agents reached high recall but variable precision, and performance depended strongly on prompt design. We report evaluation metrics, error categories and the human effort saved by automating the screening stage.",
+      "doi": "10.5555/demo.002",
+      "source": "semantic_scholar",
+      "subquestion_ids": [
+        1,
+        2
+      ],
+      "doi_verified": true,
+      "metadata_flag": null
+    },
+    {
+      "paper_id": "S2:demo007",
+      "title": "Human oversight in semi-automated systematic reviews",
+      "authors": [
+        "Synthetic Author 7A",
+        "Synthetic Author 7B"
+      ],
+      "year": 2025,
+      "abstract": "Semi-automated tools for systematic literature reviews keep humans responsible for final inclusion decisions. This study examines limitations of automating review stages with LLM-based agents, including automation bias and reduced reviewer attention, and proposes checkpoints at which human reviewers approve agent outputs before the workflow continues.",
+      "doi": "10.5555/demo.007",
+      "source": "semantic_scholar",
+      "subquestion_ids": [
+        3
+      ],
+      "doi_verified": true,
+      "metadata_flag": null
+    },
+    {
+      "paper_id": "S2:demo008",
+      "title": "Reproducibility limitations of language-model screening in evidence reviews",
+      "authors": [
+        "Synthetic Author 8A",
+        "Synthetic Author 8B"
+      ],
+      "year": 2025,
+      "abstract": "Language-model outputs vary between runs and model versions. We test the reproducibility of LLM-based agents automating systematic literature reviews and find that screening decisions changed for a notable share of records across repeated runs, a limitation that requires logging prompts, model versions and decisions for audit.",
+      "doi": "10.5555/demo.008",
+      "source": "semantic_scholar",
+      "subquestion_ids": [
+        3
+      ],
+      "doi_verified": false,
+      "metadata_flag": "title_mismatch(0.16)"
+    },
+    {
+      "paper_id": "S2:demo003",
+      "title": "Retrieval-augmented generation pipelines for literature review automation",
+      "authors": [
+        "Synthetic Author 3A",
+        "Synthetic Author 3B"
+      ],
+      "year": 2025,
+      "abstract": "Retrieval-augmented generation grounds language model outputs in retrieved documents. We present methods for building retrieval pipelines that support automating systematic literature reviews, including query expansion, abstract retrieval and citation linking, and discuss architectures that keep generated summaries traceable to sources.",
+      "doi": "10.5555/demo.003",
+      "source": "semantic_scholar",
+      "subquestion_ids": [
+        1
+      ],
+      "doi_verified": true,
+      "metadata_flag": null
+    },
+    {
+      "paper_id": "S2:demo004",
+      "title": "Planning and tool use in LLM-based research agents",
+      "authors": [
+        "Synthetic Author 4A",
+        "Synthetic Author 4B"
+      ],
+      "year": 2025,
+      "abstract": "LLM-based agents increasingly plan multi-step research tasks and call external tools such as scholarly search engines. This paper surveys planning methods, including task decomposition and reflection, and analyses how agents for automating literature reviews select tools, recover from failed searches and record their decisions for audit.",
+      "doi": "10.5555/demo.004",
+      "source": "semantic_scholar",
+      "subquestion_ids": [
+        1
+      ],
+      "doi_verified": false,
+      "metadata_flag": "doi_not_found"
+    },
+    {
+      "paper_id": "S2:demo010",
+      "title": "Comparative evaluation of agentic and single-prompt approaches to literature reviews",
+      "authors": [
+        "Synthetic Author 10A",
+        "Synthetic Author 10B"
+      ],
+      "year": 2025,
+      "abstract": "We compare agentic workflows with single-prompt baselines for automating systematic literature reviews. In an evaluation on twelve review topics, agentic workflows improved recall of relevant studies but increased cost and latency, and gains depended on the task and the coordination architecture.",
+      "doi": null,
+      "source": "semantic_scholar",
+      "subquestion_ids": [
+        2
+      ],
+      "doi_verified": false,
+      "metadata_flag": "no_doi"
+    },
+    {
+      "paper_id": "S2:demo005",
+      "title": "Benchmarking automated evidence synthesis with large language models",
+      "authors": [
+        "Synthetic Author 5A",
+        "Synthetic Author 5B"
+      ],
+      "year": 2025,
+      "abstract": "We benchmark large language models on evidence synthesis tasks drawn from published systematic literature reviews. Evaluation covers data extraction, summary faithfulness and agreement with human reviewers. Models performed well on extraction but produced unfaithful statements in a minority of summaries, which indicates that automating synthesis still requires human verification.",
+      "doi": "10.5555/demo.005",
+      "source": "semantic_scholar",
+      "subquestion_ids": [
+        2
+      ],
+      "doi_verified": true,
+      "metadata_flag": null
+    }
+  ],
+  "summaries": [
+    {
+      "paper_id": "S2:demo006",
+      "summary": "Large language models can fabricate references or corrupt citation details. We analyse limitations and risks of LLM-based agents automating systematic literature reviews, finding that ungrounded generation produced non-existent DOIs and mismatched metadata, while agents retrieving from scholarly indexes and verifying DOIs reduced these errors substantially."
+    },
+    {
+      "paper_id": "S2:demo001",
+      "summary": "We describe a multi-agent architecture in which LLM-based agents plan search strategies, screen titles and abstracts, and draft evidence tables for systematic literature reviews. A deterministic controller coordinates the agents and enforces review protocol rules."
+    },
+    {
+      "paper_id": "S2:demo002",
+      "summary": "This evaluation measures how accurately LLM-based agents screen titles and abstracts for systematic literature reviews. Across four review datasets the agents reached high recall but variable precision, and performance depended strongly on prompt design."
+    },
+    {
+      "paper_id": "S2:demo007",
+      "summary": "Semi-automated tools for systematic literature reviews keep humans responsible for final inclusion decisions. This study examines limitations of automating review stages with LLM-based agents, including automation bias and reduced reviewer attention, and proposes checkpoints at which human reviewers approve agent outputs before the workflow continues."
+    },
+    {
+      "paper_id": "S2:demo008",
+      "summary": "Language-model outputs vary between runs and model versions. We test the reproducibility of LLM-based agents automating systematic literature reviews and find that screening decisions changed for a notable share of records across repeated runs, a limitation that requires logging prompts, model versions and decisions for audit."
+    },
+    {
+      "paper_id": "S2:demo003",
+      "summary": "Retrieval-augmented generation grounds language model outputs in retrieved documents. We present methods for building retrieval pipelines that support automating systematic literature reviews, including query expansion, abstract retrieval and citation linking, and discuss architectures that keep generated summaries traceable to sources."
+    },
+    {
+      "paper_id": "S2:demo004",
+      "summary": "LLM-based agents increasingly plan multi-step research tasks and call external tools such as scholarly search engines. This paper surveys planning methods, including task decomposition and reflection, and analyses how agents for automating literature reviews select tools, recover from failed searches and record their decisions for audit."
+    },
+    {
+      "paper_id": "S2:demo010",
+      "summary": "We compare agentic workflows with single-prompt baselines for automating systematic literature reviews. In an evaluation on twelve review topics, agentic workflows improved recall of relevant studies but increased cost and latency, and gains depended on the task and the coordination architecture."
+    },
+    {
+      "paper_id": "S2:demo005",
+      "summary": "We benchmark large language models on evidence synthesis tasks drawn from published systematic literature reviews. Evaluation covers data extraction, summary faithfulness and agreement with human reviewers."
+    }
+  ],
+  "themes": [
+    "reviews",
+    "literature",
+    "systematic",
+    "multi-agent"
+  ],
+  "gaps": [
+    "Lexical baseline cannot infer gaps; use an LLM provider."
+  ],
+  "limitations": [
+    "Relevance and summaries are based on titles and abstracts only; methods, results and limitations in full texts were not read.",
+    "Search source: fixture; papers outside its index are missed.",
+    "Relevance scores are LLM judgements pre-selecting evidence for human approval, not a quality appraisal.",
+    "3 selected paper(s) could not be verified against Crossref; check their citation details manually.",
+    "Run in auto-approve mode: no human reviewed the sub-questions or evidence."
+  ],
+  "run_id": "d57313e7"
+}

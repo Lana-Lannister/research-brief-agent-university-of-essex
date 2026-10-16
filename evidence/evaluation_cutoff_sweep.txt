@@ -1,0 +1,27 @@
+relevance_cutoff=0.3
+{
+  "selected": 10,
+  "precision": 0.9,
+  "recall": 1.0,
+  "citation_accuracy": 0.7,
+  "goal_preservation": 1.0,
+  "storage_ok": true
+}
+relevance_cutoff=0.5
+{
+  "selected": 9,
+  "precision": 1.0,
+  "recall": 1.0,
+  "citation_accuracy": 0.67,
+  "goal_preservation": 1.0,
+  "storage_ok": true
+}
+relevance_cutoff=0.7
+{
+  "selected": 5,
+  "precision": 1.0,
+  "recall": 0.56,
+  "citation_accuracy": 0.8,
+  "goal_preservation": 1.0,
+  "storage_ok": true
+}

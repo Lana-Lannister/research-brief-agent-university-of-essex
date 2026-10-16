@@ -1,0 +1,40 @@
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/unit11/research_agent/orchestrator.py", line 79, in _run
+    papers = self._retrieve_all(subs, c)
+  File "/root/unit11/research_agent/orchestrator.py", line 128, in _retrieve_all
+    outcome = self.retriever.retrieve_evidence(sub, c)
+  File "/root/unit11/research_agent/agents/retrieval.py", line 46, in retrieve_evidence
+    for p in self.search.search(q, constraints)]
+             ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/root/unit11/tests/test_robustness.py", line 27, in search
+    raise SourceUnavailable("both sources unreachable")
+research_agent.sources.SourceUnavailable: both sources unreachable
+
+======================================================================
+FAIL: test_refine_accepts_ids_without_source_prefix (tests.test_robustness.TestConsoleReviewer.test_refine_accepts_ids_without_source_prefix)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/root/unit11/tests/test_robustness.py", line 74, in test_refine_accepts_ids_without_source_prefix
+    self.assertEqual(out.deselected, {"S2:demo001"})
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Items in the first set but not the second:
+'demo001'
+Items in the second set but not the first:
+'S2:demo001'
+
+======================================================================
+FAIL: test_refine_reprompts_on_unknown_id (tests.test_robustness.TestConsoleReviewer.test_refine_reprompts_on_unknown_id)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/root/unit11/tests/test_robustness.py", line 81, in test_refine_reprompts_on_unknown_id
+    self.assertEqual(out.deselected, {"S2:demo002"})
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Items in the first set but not the second:
+'nonsense'
+Items in the second set but not the first:
+'S2:demo002'
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.007s
+
+FAILED (failures=2, errors=2)

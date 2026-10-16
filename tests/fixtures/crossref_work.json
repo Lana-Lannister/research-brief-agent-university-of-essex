@@ -1,0 +1,26 @@
+{
+ "status": "ok",
+ "message": {
+  "DOI": "10.1038/s42256-020-00287-7",
+  "title": [
+   "An open source machine learning framework for efficient and transparent systematic reviews"
+  ],
+  "published-online": {
+   "date-parts": [
+    [
+     2021,
+     2,
+     1
+    ]
+   ]
+  },
+  "issued": {
+   "date-parts": [
+    [
+     2021,
+     2
+    ]
+   ]
+  }
+ }
+}

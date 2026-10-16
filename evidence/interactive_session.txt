@@ -1,0 +1,55 @@
+
+=== Human Review 1: sub-questions ===
+  [1] What approaches and architectures are used for llm-based agents automating systematic literature reviews?
+      query: llm-based agents automating systematic literature reviews methods
+  [2] What evidence exists on the performance of llm-based agents automating systematic literature reviews?
+      query: llm-based agents automating systematic literature reviews evaluation
+  [3] What risks and limitations affect llm-based agents automating systematic literature reviews?
+      query: llm-based agents automating systematic literature reviews limitations
+Approve (a) or request revision (r)? Describe the revision: 
+=== Human Review 1: sub-questions ===
+  [1] What approaches and architectures are used for llm-based agents automating systematic literature reviews?
+      query: llm-based agents automating systematic literature reviews methods
+  [2] What evidence exists on the performance of llm-based agents automating systematic literature reviews?
+      query: llm-based agents automating systematic literature reviews evaluation
+  [3] What risks and limitations affect llm-based agents automating systematic literature reviews?
+      query: llm-based agents automating systematic literature reviews limitations
+Approve (a) or request revision (r)? 
+=== Human Review 2: selected evidence ===
+  S2:demo006  score=0.89  SQ3
+      Hallucinated references and citation errors in LLM-generated literature reviews (2025) DOI 10.5555/demo.006 [verified]
+      why: keyword overlap ['agents', 'automating', 'limitations', 'literature', 'llm-based', 'reviews', 'risks', 'systematic']
+  S2:demo001  score=0.88  SQ1
+      Multi-agent architectures for automating systematic literature reviews (2025) DOI 10.5555/demo.001 [verified]
+      why: keyword overlap ['agents', 'architectures', 'automating', 'literature', 'llm-based', 'reviews', 'systematic']
+  S2:demo002  score=0.78  SQ2
+      Evaluating LLM-based agents for title and abstract screening in systematic reviews (2025) DOI 10.5555/demo.002 [verified]
+      why: keyword overlap ['agents', 'automating', 'literature', 'llm-based', 'performance', 'reviews', 'systematic']
+  S2:demo007  score=0.78  SQ3
+      Human oversight in semi-automated systematic reviews (2025) DOI 10.5555/demo.007 [verified]
+      why: keyword overlap ['agents', 'automating', 'limitations', 'literature', 'llm-based', 'reviews', 'systematic']
+  S2:demo008  score=0.78  SQ2
+      Reproducibility limitations of language-model screening in evidence reviews (2025) DOI 10.5555/demo.008 [UNVERIFIED (title_mismatch(0.16))]
+      why: keyword overlap ['agents', 'automating', 'evidence', 'literature', 'llm-based', 'reviews', 'systematic']
+  S2:demo003  score=0.62  SQ1
+      Retrieval-augmented generation pipelines for literature review automation (2025) DOI 10.5555/demo.003 [verified]
+      why: keyword overlap ['architectures', 'automating', 'literature', 'reviews', 'systematic']
+  S2:demo004  score=0.62  SQ1
+      Planning and tool use in LLM-based research agents (2025) DOI 10.5555/demo.004 [UNVERIFIED (doi_not_found)]
+      why: keyword overlap ['agents', 'automating', 'literature', 'llm-based', 'reviews']
+  S2:demo010  score=0.62  SQ1
+      Comparative evaluation of agentic and single-prompt approaches to literature reviews (2025) DOI - [UNVERIFIED (no_doi)]
+      why: keyword overlap ['approaches', 'automating', 'literature', 'reviews', 'systematic']
+  S2:demo005  score=0.56  SQ2
+      Benchmarking automated evidence synthesis with large language models (2025) DOI 10.5555/demo.005 [verified]
+      why: keyword overlap ['automating', 'evidence', 'literature', 'reviews', 'systematic']
+  S2:demo012  score=0.33  SQ3
+      Limitations of automated negotiation agents in supply chains (2024) DOI 10.5555/demo.012 [verified]
+      why: keyword overlap ['agents', 'limitations', 'risks']
+Approve (a), refine by deselecting (f), or reject scope (x)? Paper ids to remove (space separated): Unknown id(s): demo99. Choose from: S2:demo001 S2:demo002 S2:demo003 S2:demo004 S2:demo005 S2:demo006 S2:demo007 S2:demo008 S2:demo010 S2:demo012
+Paper ids to remove (space separated): 
+Run e1109772: completed. 
+Brief saved: output/brief_e1109772.md
+             output/brief_e1109772.json
+Log: logs/run_e1109772.log
+Stats: {'llm_calls': 6, 'reformulations': 1, 'scope_revisions': 0}

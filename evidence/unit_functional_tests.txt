@@ -1,0 +1,63 @@
+test_abstracts_are_truncated_in_prompt (tests.test_agents.TestEvaluationAgent.test_abstracts_are_truncated_in_prompt) ... ok
+test_batches_long_inputs (tests.test_agents.TestEvaluationAgent.test_batches_long_inputs) ... ok
+test_discards_ungrounded_ids_and_applies_cutoff (tests.test_agents.TestEvaluationAgent.test_discards_ungrounded_ids_and_applies_cutoff) ... discarded_ungrounded_assessment paper=INVENTED subq=1
+discarded_ungrounded_assessment paper=P1 subq=99
+ok
+test_no_llm_call_when_nothing_approved (tests.test_agents.TestEvaluationAgent.test_no_llm_call_when_nothing_approved) ... ok
+test_synthesis_only_for_approved_and_fills_missing (tests.test_agents.TestEvaluationAgent.test_synthesis_only_for_approved_and_fills_missing) ... discarded_ungrounded_summaries n=1
+ok
+test_duplicate_queries_removed_then_too_few_reprompt_fails (tests.test_agents.TestPlanningAgent.test_duplicate_queries_removed_then_too_few_reprompt_fails) ... ok
+test_feedback_is_included_in_revision_prompt (tests.test_agents.TestPlanningAgent.test_feedback_is_included_in_revision_prompt) ... ok
+test_plan_renumbers_and_marks_unapproved (tests.test_agents.TestPlanningAgent.test_plan_renumbers_and_marks_unapproved) ... ok
+test_reformulation_must_differ (tests.test_agents.TestPlanningAgent.test_reformulation_must_differ) ... ok
+test_too_many_truncated_to_max (tests.test_agents.TestPlanningAgent.test_too_many_truncated_to_max) ... ok
+test_threshold_counts_only_usable_abstracts (tests.test_agents.TestRetrievalAgent.test_threshold_counts_only_usable_abstracts) ... ok
+test_threshold_met (tests.test_agents.TestRetrievalAgent.test_threshold_met) ... ok
+test_offline_cli_run_exits_zero (tests.test_functional.TestCli.test_offline_cli_run_exits_zero) ... ok
+test_dedup_merges_subquestion_links_and_keeps_abstract (tests.test_functional.TestFailureModes.test_dedup_merges_subquestion_links_and_keeps_abstract) ... ok
+test_invalid_llm_output_fails_closed (tests.test_functional.TestFailureModes.test_invalid_llm_output_fails_closed) ... ok
+test_threshold_unreachable_flags_coverage (tests.test_functional.TestFailureModes.test_threshold_unreachable_flags_coverage) ... ok
+test_full_run_produces_grounded_brief (tests.test_functional.TestHappyPath.test_full_run_produces_grounded_brief) ... ok
+test_reformulation_happens_once_for_thin_subquestion (tests.test_functional.TestHappyPath.test_reformulation_happens_once_for_thin_subquestion) ... ok
+test_unverified_dois_are_flagged_not_hidden (tests.test_functional.TestHappyPath.test_unverified_dois_are_flagged_not_hidden) ... ok
+test_deselecting_everything_yields_no_evidence (tests.test_functional.TestReviewBranches.test_deselecting_everything_yields_no_evidence) ... ok
+test_refine_removes_deselected_papers (tests.test_functional.TestReviewBranches.test_refine_removes_deselected_papers) ... ok
+test_revision_at_checkpoint1_replans (tests.test_functional.TestReviewBranches.test_revision_at_checkpoint1_replans) ... ok
+test_scope_rejection_allowed_once (tests.test_functional.TestReviewBranches.test_scope_rejection_allowed_once) ... ok
+test_second_scope_rejection_stops_run (tests.test_functional.TestReviewBranches.test_second_scope_rejection_stops_run) ... ok
+test_gives_up_after_budget (tests.test_llm.TestCompleteJson.test_gives_up_after_budget) ... ok
+test_reprompts_with_error_then_succeeds (tests.test_llm.TestCompleteJson.test_reprompts_with_error_then_succeeds) ... ok
+test_garbage_raises (tests.test_llm.TestExtractJson.test_garbage_raises) ... ok
+test_plain_fenced_and_preamble (tests.test_llm.TestExtractJson.test_plain_fenced_and_preamble) ... ok
+test_backs_off_on_429_and_parses (tests.test_llm.TestGeminiClient.test_backs_off_on_429_and_parses) ... ok
+test_empty_candidate_is_output_error (tests.test_llm.TestGeminiClient.test_empty_candidate_is_output_error) ... ok
+test_requires_key (tests.test_llm.TestGeminiClient.test_requires_key) ... ok
+test_keeps_unusual_but_valid_suffix (tests.test_models.TestNormaliseDoi.test_keeps_unusual_but_valid_suffix) ... ok
+test_rejects_non_dois (tests.test_models.TestNormaliseDoi.test_rejects_non_dois) ... ok
+test_strips_url_prefixes_and_case (tests.test_models.TestNormaliseDoi.test_strips_url_prefixes_and_case) ... ok
+test_dedup_key_prefers_doi_then_title (tests.test_models.TestPaper.test_dedup_key_prefers_doi_then_title) ... ok
+test_doi_is_normalised_on_construction (tests.test_models.TestPaper.test_doi_is_normalised_on_construction) ... ok
+test_invalid_values_rejected (tests.test_models.TestSubQuestionAndConstraints.test_invalid_values_rejected) ... ok
+test_query_quotes_are_stripped (tests.test_models.TestSubQuestionAndConstraints.test_query_quotes_are_stripped) ... ok
+test_closed_input_at_checkpoint_cancels_cleanly (tests.test_robustness.TestCancellation.test_closed_input_at_checkpoint_cancels_cleanly) ... ok
+test_missing_api_key_gives_message_not_traceback (tests.test_robustness.TestCliConfiguration.test_missing_api_key_gives_message_not_traceback) ... ok
+test_refine_accepts_ids_without_source_prefix (tests.test_robustness.TestConsoleReviewer.test_refine_accepts_ids_without_source_prefix) ... ok
+test_refine_reprompts_on_unknown_id (tests.test_robustness.TestConsoleReviewer.test_refine_reprompts_on_unknown_id) ... ok
+test_all_sources_down_fails_cleanly (tests.test_robustness.TestSourcesDown.test_all_sources_down_fails_cleanly) ... ok
+test_markup_in_crossref_titles_is_ignored (tests.test_sources.TestCrossref.test_markup_in_crossref_titles_is_ignored) ... ok
+test_not_found_no_doi_and_unavailable (tests.test_sources.TestCrossref.test_not_found_no_doi_and_unavailable) ... ok
+test_title_mismatch_flagged (tests.test_sources.TestCrossref.test_title_mismatch_flagged) ... ok
+test_verified_when_title_and_year_match (tests.test_sources.TestCrossref.test_verified_when_title_and_year_match) ... ok
+test_year_tolerance_of_one (tests.test_sources.TestCrossref.test_year_tolerance_of_one) ... ok
+test_falls_back_only_on_transport_failure (tests.test_sources.TestFallback.test_falls_back_only_on_transport_failure) ... ok
+test_network_exception_becomes_unavailable (tests.test_sources.TestFallback.test_network_exception_becomes_unavailable) ... ok
+test_parse_rebuilds_abstract_and_doi (tests.test_sources.TestOpenAlex.test_parse_rebuilds_abstract_and_doi) ... ok
+test_api_key_header_only_when_set (tests.test_sources.TestSemanticScholar.test_api_key_header_only_when_set) ... ok
+test_client_error_is_not_retried (tests.test_sources.TestSemanticScholar.test_client_error_is_not_retried) ... ok
+test_parses_records_and_skips_malformed (tests.test_sources.TestSemanticScholar.test_parses_records_and_skips_malformed) ... ok
+test_retries_429_then_raises_unavailable (tests.test_sources.TestSemanticScholar.test_retries_429_then_raises_unavailable) ... ok
+
+----------------------------------------------------------------------
+Ran 55 tests in 0.088s
+
+OK

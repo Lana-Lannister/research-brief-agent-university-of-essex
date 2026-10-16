@@ -1,0 +1,16 @@
+2026-10-15 18:47:29 INFO    research_agent.orchestrator        run_start run=d57313e7 question='How effective are LLM-based agents at automating systematic literature reviews?' constraints={'year_from': None, 'year_to': None, 'max_papers_per_subquestion': 8}
+2026-10-15 18:47:29 INFO    research_agent.agents.planning     plan_created n=3 feedback=False queries=['llm-based agents automating systematic literature reviews methods', 'llm-based agents automating systematic literature reviews evaluation', 'llm-based agents automating systematic literature reviews limitations']
+2026-10-15 18:47:29 INFO    research_agent.orchestrator        checkpoint1 decision=APPROVE feedback=''
+2026-10-15 18:47:29 INFO    research_agent.agents.retrieval    retrieved subq=1 query='llm-based agents automating systematic literature reviews methods' source=fixture records=5 usable=5 threshold_met=True
+2026-10-15 18:47:29 INFO    research_agent.agents.retrieval    retrieved subq=2 query='llm-based agents automating systematic literature reviews evaluation' source=fixture records=3 usable=2 threshold_met=False
+2026-10-15 18:47:29 INFO    research_agent.agents.planning     query_reformulated subq=2 old='llm-based agents automating systematic literature reviews evaluation' new='llm-based agents automating systematic literature reviews'
+2026-10-15 18:47:29 INFO    research_agent.agents.retrieval    retrieved subq=2 query='llm-based agents automating systematic literature reviews' source=fixture records=4 usable=4 threshold_met=True
+2026-10-15 18:47:29 INFO    research_agent.agents.retrieval    retrieved subq=3 query='llm-based agents automating systematic literature reviews limitations' source=fixture records=4 usable=4 threshold_met=True
+2026-10-15 18:47:29 INFO    research_agent.orchestrator        deduplicated before=13 after=11
+2026-10-15 18:47:29 INFO    research_agent.orchestrator        doi_validation verified=8 unverified=3
+2026-10-15 18:47:29 INFO    research_agent.orchestrator        doi_flag paper=S2:demo004 doi=10.5555/demo.004 flag=doi_not_found
+2026-10-15 18:47:29 INFO    research_agent.orchestrator        doi_flag paper=S2:demo010 doi=None flag=no_doi
+2026-10-15 18:47:29 INFO    research_agent.orchestrator        doi_flag paper=S2:demo008 doi=10.5555/demo.008 flag=title_mismatch(0.16)
+2026-10-15 18:47:29 INFO    research_agent.agents.evaluation   evaluated papers=11 assessments=33 preselected=9
+2026-10-15 18:47:29 INFO    research_agent.orchestrator        checkpoint2 run=d57313e7 decision=APPROVE
+2026-10-15 18:47:29 INFO    research_agent.orchestrator        run_completed run=d57313e7 papers=9 md=output/brief_d57313e7.md

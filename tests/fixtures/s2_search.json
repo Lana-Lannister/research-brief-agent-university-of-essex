@@ -1,0 +1,35 @@
+{
+ "total": 3,
+ "offset": 0,
+ "data": [
+  {
+   "paperId": "abc123",
+   "title": "An open source machine learning framework for efficient and transparent systematic reviews",
+   "year": 2021,
+   "authors": [
+    {
+     "authorId": "1",
+     "name": "R. van de Schoot"
+    }
+   ],
+   "abstract": "Placeholder abstract text used only to test parsing of a search record returned by the API in its documented format.",
+   "externalIds": {
+    "DOI": "10.1038/S42256-020-00287-7",
+    "CorpusId": 1
+   }
+  },
+  {
+   "paperId": "noabs1",
+   "title": "Record without abstract",
+   "year": 2020,
+   "authors": [],
+   "abstract": null,
+   "externalIds": {}
+  },
+  {
+   "paperId": null,
+   "title": "Malformed record without id",
+   "year": 2020
+  }
+ ]
+}

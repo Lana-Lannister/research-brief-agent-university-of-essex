@@ -1,0 +1,46 @@
+{
+ "meta": {
+  "count": 1
+ },
+ "results": [
+  {
+   "id": "https://openalex.org/W123",
+   "title": "Intelligent agents: theory and practice",
+   "publication_year": 1995,
+   "doi": "https://doi.org/10.1017/S0269888900008122",
+   "authorships": [
+    {
+     "author": {
+      "display_name": "Michael Wooldridge"
+     }
+    },
+    {
+     "author": {
+      "display_name": "Nicholas R. Jennings"
+     }
+    }
+   ],
+   "abstract_inverted_index": {
+    "Agents": [
+     0
+    ],
+    "act": [
+     1
+    ],
+    "autonomously": [
+     2
+    ],
+    "and": [
+     3,
+     5
+    ],
+    "react": [
+     4
+    ],
+    "plan": [
+     6
+    ]
+   }
+  }
+ ]
+}
